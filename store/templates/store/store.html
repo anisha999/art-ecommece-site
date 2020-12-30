@@ -1,0 +1,17 @@
+{% extends 'store/main.html' %}
+{% load static %}
+
+{% block content %}
+    <div>
+        <br>
+        <br>
+        <h3 style="font-family:lucida handwriting;"><center>Welcome to aninkshade!</center> </h3>
+        <div class="container">
+        <img class="bg" src="{% static 'img/starry.jpg' %}">
+        <a class="btnabc" href="{% url 'product' %}"> View all products</a>
+		
+            
+        
+    </div>
+   </div>
+{% endblock content %}
